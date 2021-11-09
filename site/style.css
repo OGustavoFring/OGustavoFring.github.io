@@ -1,0 +1,170 @@
+@font-face {
+  font-family: 'Marzo';
+  src: url('ffmarzo.ttf');
+}
+body {
+  background-color: #fefefe;
+
+  flex-direction: column;
+  align-items: center;
+}
+main {
+  width: 90%;
+  height: auto;
+  flex-direction: column;
+  align-items: center;
+}
+header {
+  width: 80%;
+  height: 130px;
+
+  align-items: center;
+  justify-content: space-between;
+}
+a {
+  all: unset;
+  cursor: pointer;
+}
+button {
+  all: unset;
+  cursor: grab;
+}
+.flex {
+  display: flex;
+}
+.terminar {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 50px;
+  color: rgb(108, 136, 1);
+  font-weight: bold;
+}
+.Borda-logo {
+  width: 125px;
+  height: 125px;
+
+  border: 2px solid #ff9f24;
+  border-radius: 50%;
+
+  align-items: center;
+}
+.Texto-logo {
+  width: inherit;
+  font-family: 'Marzo';
+  font-size: 35px;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+}
+.barratop {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #818181;
+}
+.topotexto {
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+}
+.sacola {
+  font-size: 45px;
+  color: #b5d831;
+  cursor: progress;
+}
+.main-display {
+  height: 700px;
+  width: 80%;
+
+  justify-content: left;
+}
+.left-side {
+  width: 50%;
+  height: 607px;
+  justify-content: center;
+  align-items: center;
+}
+.logofundo {
+  width: 125px;
+  height: 125px;
+
+  background-color: #ff9f24aa;
+  border-radius: 50%;
+
+  align-items: center;
+
+  position: relative;
+  left: 155px;
+  top: 150px;
+}
+.Borda-logo > .Texto-logo {
+  color: #ff9f24aa;
+}
+
+.direito {
+  width: 300px;
+  flex-direction: column;
+}
+.disc1 {
+  height: 230px;
+  width: 500px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 50px;
+  line-height: 1.5em;
+  color: rgb(108, 136, 1);
+}
+.botaomid {
+  width: 170px;
+  height: 40px;
+  background-color: #b5d831;
+  text-align: center;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-weight: 100;
+  font-size: 23px;
+  color: #fefafa;
+}
+.color-a {
+  color: #ff9f24;
+}
+.descsite {
+  line-height: 2px;
+}
+.redesocial {
+  font-size: 40px;
+}
+.chat {
+  height: 40px;
+  width: 400px;
+  background-color: #ff9f24;
+  border-radius: 17px;
+  font-family: 'Marzo';
+  font-size: 25px;
+  color: #fefefe;
+  padding: 5px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+.limao {
+  width: 500px;
+  height: 300px;
+
+  position: absolute;
+  left: 500px;
+  top: 550px;
+}
+.jarrasuco {
+  width: 185px;
+  height: 607px;
+}
+footer {
+  width: 80%;
+  height: 180px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #818181;
+
+  align-items: center;
+  justify-content: space-between;
+}
